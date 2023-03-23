@@ -1,0 +1,1 @@
+//How do I connect a button from HTML to JS?//

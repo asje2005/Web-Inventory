@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RUS Industries</title>
+    <h1>Insert Inventory</h1>
+
+</head>
+<body>
+    <!--<div class="start-button">
+        <p>START</p>-->
+    </div>
+    <h3 class="begin">Sign Out</h3>
+        <section class="begin">
+            <h3>Enter Employee Number</h3>
+            <input type="number" name="employee-number" min="1" max="1500" required>
+            <!--<input type="submit" value="Enter">-->
+            <!--<a href="./employees.html">-->
+            <h4>- OR - </h4>
+            <h3>Search Employee</h3> 
+            <select name="names" id="names">
+                <option value="blank"> </option>
+                <option >Tom Dunlap</option>
+                <option >Jerry Foournier</option>
+                <option >Kieth Giancola</option>
+                <option >Roger Portugese</option>
+                <option >Joel Taylor</option>
+                <option >Bob Wasson</option>
+                <option >Rob Barron</option>
+                <option >Dave Hogrewe</option>
+                <option >Derek Notaro</option>
+                <option >Aaron Sylvis</option>
+            </select>
+            <br><br>
+            <input class="enter" type="submit" value="Next">
+        </section>
+        <br>
+    <hr>
+    <label>
+        <h3>Inserts</h3>
+    </label>
+    <select name="category" id="category">
+        <option value="blank"> </option>
+        <option>Turning</option>
+        <option>Milling</option>
+        <option>Drilling</option>
+        <option>Grooving</option>
+        <option>Threading</option>
+        <option>Boring</option>
+    </select>
+    <br><br>
+    <label>
+        <h3>Misc/Safety</h3>
+    </label>
+        <select name="category" id="misc">
+            <option value="blank"> </option>
+            <option value="Rags">Rags</option>
+            <option value="Gloves">Gloves</option>
+            <option value="Deburring">Deburring</option>
+            <option value="Glasses">Glasses</option>
+            <option value="Filters">Filters</option>
+        </select>
+        <br><br>
+        <label>Insert # 
+            <br>
+        <input class="id-cat" type="text" name="insert-number" [0-9] maxlength="3" required>
+        </label>
+        <br><br>
+        <label>Qty</label>
+        <br>
+        <input class="qty" type="text" name="quantity" [0-9] maxlength="1"required>
+        <br><br>
+        <input class="enter" type="submit" value="Next">
+    <br><br>
+    <hr>
+    <label>
+        <h3>Job Number</h3>
+        <input type="text" name="job-number" [0-9] maxlength="10" placeholder="no dashes" required>
+        <br><br>
+        <input class="enter" type="submit" value="Enter" >
+    </label>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="db3a34" fill-opacity="1" d="M0,64L0,160L240,160L240,32L480,32L480,32L720,32L720,128L960,128L960,320L1200,320L1200,32L1440,32L1440,320L1200,320L1200,320L960,320L960,320L720,320L720,320L480,320L480,320L240,320L240,320L0,320L0,320Z"></path></svg>
+    <script></script>
+</body>
+</html>

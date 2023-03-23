@@ -1,0 +1,42 @@
+.enter{
+    color: white;
+    border: 1px solid grey/*#317cc1*/;
+    border-radius: 50px;
+    background: grey/*#317cc1*/;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.enter:hover {
+   background: rgb(225, 0, 0);
+   color: white;
+   border-color: rgb(225, 0, 0);
+}
+
+body,h1{
+    
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    width: 50%;
+    background-color: red;
+    border-color: red;
+}
+
+.qty, .id-cat{
+    width: 80px;
+    text-align: center;
+}
